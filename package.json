@@ -1,0 +1,24 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "This is the fifth node project on FCC!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromesnail/file-metadata-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeromesnail/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/jeromesnail/file-metadata-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
