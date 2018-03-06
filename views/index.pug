@@ -1,0 +1,17 @@
+doctype html
+html
+  body
+    h1 Welcome to jeromesnail's File Metadata Microservice
+    p Submit a file to get its size as a json response
+    form(
+      action = '/get-file-size'
+      method = 'post'
+      enctype = 'multipart/form-data'
+    )
+      input(
+        type = 'file'
+        name ='file'
+      )
+      input(
+        type ='submit'
+      )  
